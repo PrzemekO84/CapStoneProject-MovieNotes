@@ -1,0 +1,53 @@
+:root{
+    --gunmetal: #36393bff;
+    --dusty-denim: #6290c8ff;
+    --wisteria-blue: #829cbcff;
+    --lobster-pink: #cd5d67ff;
+    --tea-green: #c2eabdff;
+
+    /* CSS HSL */
+    --gunmetal: hsla(204, 4%, 22%, 1);
+    --dusty-denim: hsla(213, 48%, 58%, 1);
+    --wisteria-blue: hsla(213, 30%, 62%, 1);
+    --lobster-pink: hsla(355, 53%, 58%, 1);
+    --tea-green: hsla(113, 52%, 83%, 1);
+}
+
+/* ========== Footer ========== */
+
+.footer-container{
+    color: white;
+}
+
+.copyright-container{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 2%);
+    padding: 1rem;
+}
+
+.copyright-container p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.links-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--dusty-denim);
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-container a{
+    color: white;
+    text-decoration: none;
+}

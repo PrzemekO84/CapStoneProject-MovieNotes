@@ -1,0 +1,68 @@
+:root{
+    --gunmetal: #36393bff;
+    --dusty-denim: #6290c8ff;
+    --wisteria-blue: #829cbcff;
+    --lobster-pink: #cd5d67ff;
+    --tea-green: #c2eabdff;
+
+    /* CSS HSL */
+    --gunmetal: hsla(204, 4%, 22%, 1);
+    --dusty-denim: hsla(213, 48%, 58%, 1);
+    --wisteria-blue: hsla(213, 30%, 62%, 1);
+    --lobster-pink: hsla(355, 53%, 58%, 1);
+    --tea-green: hsla(113, 52%, 83%, 1);
+}
+
+html{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gunmetal);
+    color: white;
+}
+
+
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.main-wrapper{
+    width: 80%;
+    border: 2px solid red;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info-title-container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.info-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,40 @@
+:root{
+    --gunmetal: #36393bff;
+    --dusty-denim: #6290c8ff;
+    --wisteria-blue: #829cbcff;
+    --lobster-pink: #cd5d67ff;
+    --tea-green: #c2eabdff;
+
+    /* CSS HSL */
+    --gunmetal: hsla(204, 4%, 22%, 1);
+    --dusty-denim: hsla(213, 48%, 58%, 1);
+    --wisteria-blue: hsla(213, 30%, 62%, 1);
+    --lobster-pink: hsla(355, 53%, 58%, 1);
+    --tea-green: hsla(113, 52%, 83%, 1);
+}
+
+.header-wrapper{
+    border-bottom: 3px solid var(--dusty-denim);
+    padding-bottom: 1rem;
+}
+
+.logo-container img{
+    width: 75px;
+    height: 75px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.logo-container p{
+    color: var(--tea-green);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 6px;
+}
+
+
